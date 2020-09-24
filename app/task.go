@@ -6,11 +6,11 @@ import (
 	"log"
 	"sync"
 
-	"github.com/zu1k/proxypool/app/cache"
-	"github.com/zu1k/proxypool/config"
-	"github.com/zu1k/proxypool/provider"
-	"github.com/zu1k/proxypool/proxy"
-	"github.com/zu1k/proxypool/tool"
+	"github.com/pool8964/proxypool/app/cache"
+	"github.com/pool8964/proxypool/config"
+	"github.com/pool8964/proxypool/provider"
+	"github.com/pool8964/proxypool/proxy"
+	"github.com/pool8964/proxypool/tool"
 	"gopkg.in/yaml.v2"
 )
 
@@ -55,7 +55,7 @@ func CrawlGo() {
 
 func FetchNewConfigFileThenInit() {
 	fmt.Println("fetch new config file...")
-	resp, err := tool.GetHttpClient().Get("https://raw.githubusercontent.com/zu1k/proxypool/master/source.yaml")
+	resp, err := tool.GetHttpClient().Get("https://raw.githubusercontent.com/pool8964/proxypool/master/source.yaml")
 	if err != nil {
 		return
 	}
