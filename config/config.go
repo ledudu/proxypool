@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/ghodss/yaml"
-	"github.com/zu1k/proxypool/tool"
+	"github.com/pool8964/proxypool/tool"
 )
 
 type Source struct {
