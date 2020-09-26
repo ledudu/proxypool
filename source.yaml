@@ -204,6 +204,9 @@ sources:
   - type: subscribe
     options:
       url: https://www.3kla.cn/subscribe/txt/Anranray.txt
+  - type: subscribe
+    options:
+      url: https://googlehosts.org/     
 
   # 网页模糊抓取
   - type: webfuzz
