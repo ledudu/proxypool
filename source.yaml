@@ -8,6 +8,9 @@ sources:
       url: https://suda.sub.koicloud.pw/link/K9vz0uFPe9ULfdqX?sub=3
   - type: subscribe
     options:
+      url: https://baipiao-rss.com/link/NESJDoBYEccrLeN4?sub=3&extend=1
+  - type: subscribe
+    options:
       url: https://raw.githubusercontent.com/Pcrab/Dotfiles/912c1104b3f8121f72f7ee11590f52bc9c44dde7/.config/electron-ssr/gui-config.json
   - type: subscribe
     options:
