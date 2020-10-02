@@ -5,6 +5,9 @@ sources:
   # 订阅链接
   - type: subscribe
     options:
+      url: https://baipiao-rss.com/link/NESJDoBYEccrLeN4?sub=3&extend=1
+  - type: subscribe
+    options:
       url: https://suda.sub.koicloud.pw/link/K9vz0uFPe9ULfdqX?sub=3
   - type: subscribe
     options:
