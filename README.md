@@ -18,12 +18,6 @@
 
 ## 安装
 
-### 使用Heroku
-
-首先 Fork 仓库到你的用户名下，然后修改 assets 文件夹下的html文件，将里面的域名修改为你自己的，最后点击按钮进行部署
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
 ### 从源码编译
 
 需要安装Golang
