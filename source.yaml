@@ -3,6 +3,3 @@ sources:
     options:
       url: https://fanqiangdang.com/forum.php?mod=rss&fid=36&auth=0
       num: 200
-
-  - type: web-freessrxyz
-    options:
