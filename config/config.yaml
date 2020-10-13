@@ -2,7 +2,7 @@
 domain: kufei2020.herokuapp.com
 
 # database url
-database_url: ""
+database_url: "kufei2020.herokuapp.com"
 
 # cloudflare api
 cf_email: ""
