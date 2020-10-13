@@ -3,9 +3,9 @@ package provider
 import (
 	"strings"
 
-	"github.com/ilpl/proxypool/pkg/tool"
+	"github.com/luohao10001/cproxypool/pkg/tool"
 
-	"github.com/ilpl/proxypool/pkg/proxy"
+	"github.com/luohao10001/proxypool/pkg/proxy"
 )
 
 type Clash struct {
