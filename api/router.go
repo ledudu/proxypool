@@ -8,13 +8,13 @@ import (
 
 	"github.com/gin-gonic/gin"
 	_ "github.com/heroku/x/hmetrics/onload"
-	"github.com/ilpl/proxypool/config"
-	binhtml "github.com/ilpl/proxypool/internal/bindata/html"
-	"github.com/ilpl/proxypool/internal/cache"
-	"github.com/ilpl/proxypool/pkg/provider"
+	"github.com/luohao10001/proxypool/config"
+	binhtml "github.com/luohao10001/proxypool/internal/bindata/html"
+	"github.com/luohao10001/proxypool/internal/cache"
+	"github.com/luohao10001/proxypool/pkg/provider"
 )
 
-const version = "v0.3.9"
+const version = "v0.3.10"
 
 var router *gin.Engine
 
